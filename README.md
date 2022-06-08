@@ -17,7 +17,7 @@ Few things this mod does an example:
 
 I put them in a folder up one in ..\libs\ referencing is important for compile, this are obtainable from the  \Weed Shop 3\Weed Shop 3_Data\Managed
 Adjust .csproj to your liking / visual studio references, to match until success. This is the section of .csproj you need to adjust or modify it in the visual studio right click context menu on dependencies!!! 
-
+```
   <ItemGroup>
     <Reference Include="0Harmony">
       <HintPath>..\libs\0Harmony.dll</HintPath>
@@ -47,3 +47,4 @@ Adjust .csproj to your liking / visual studio references, to match until success
       <HintPath>..\libs\UnityEngine.UIModule.dll</HintPath>
     </Reference>
   </ItemGroup>
+```
