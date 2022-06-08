@@ -11,3 +11,39 @@ Few things this mod does an example:
 : Patches the bootPC where it doesn't load at all 
 : Pressing the Down Arrow key, will create a canvas element that says "TEST" woot
 : Number 8 on the keyboard will load an empty weed terrain scene, perfect for testing.
+
+
+!!! Dependencies::
+
+I put them in a folder up one in ..\libs\ referencing is important for compile, this are obtainable from the  \Weed Shop 3\Weed Shop 3_Data\Managed
+Adjust .csproj to your liking / visual studio references, to match until success. This is the section of .csproj you need to adjust or modify it in the visual studio right click context menu on dependencies!!! 
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\libs\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\libs\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>..\libs\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\libs\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\libs\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\libs\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\libs\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\libs\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\libs\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
