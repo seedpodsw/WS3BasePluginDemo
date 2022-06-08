@@ -13,7 +13,7 @@ Few things this mod does an example:
 : Number 8 on the keyboard will load an empty weed terrain scene, perfect for testing.  
 
 
-!!! Dependencies::
+# Dependencies::
 
 I put them in a folder up one in ..\libs\ referencing is important for compile, this is obtainable from the  \Weed Shop 3\Weed Shop 3_Data\Managed  
 Adjust .csproj to your liking / visual studio references, to match until success. This is the section of .csproj you need to adjust or modify it in the visual studio   right click context menu on dependencies!!!   
